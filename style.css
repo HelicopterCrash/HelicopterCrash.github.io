@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif; /* Change this to the font you want */
+	font-style: italic;
+	
+		color: #353535; /* Change this to your desired shade of gray */
+	  
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.image-container {
+	margin: 20px 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		max-width: 100%;
+	}
+}
